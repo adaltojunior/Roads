@@ -1,0 +1,33 @@
+<ro-view id="forms" ro-controller="forms" mainPage>
+    <ro-header>
+        <ro-title>Sample Ro - Form</ro-title>
+    </ro-header>
+    <ro-stage>
+        <ro-layout orientation="vertical">
+            <ro-form>
+                <ro-item>
+                    <ro-input type="text"
+                              name="userName"
+                              icon="Username"
+                              value=""
+                              i18n="placeholder"
+                              i18nKey="login"
+                              placeholder=""></ro-input>
+                </ro-item>
+                <ro-item>
+                    <ro-input type="password"
+                              name="password"
+                              icon="password"
+                              value=""
+                              i18n="placeholder"
+                              i18nKey="password"
+                              placeholder=""></ro-input>
+                </ro-item>
+                <ro-item>
+                    <ro-button class="clear"></ro-button>
+                    <ro-button class="submit"></ro-button>
+                </ro-item>
+            </ro-form>
+        </ro-layout>
+    </ro-stage>
+</ro-view>
